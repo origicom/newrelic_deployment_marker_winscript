@@ -1,8 +1,9 @@
 @echo off
 setlocal
 echo.
-echo "OK Ned, so you wanna create a Deployment Report..."
-echo "Note: for optional fields (opt.), hit enter to leave blank"
+echo "OK Ned, so you wanna create a Deployment Marker in New Relic..."
+echo "Notes: Press Enter to leave blank or use default."
+echo "       Fields marked (opt.) are optional."
 echo.
 set /p nrapikey= "What is the API key? [default: API key for XOC] "
 set /p nrappname= "What is the app name? [default: FFM ROLLUP APP] "
